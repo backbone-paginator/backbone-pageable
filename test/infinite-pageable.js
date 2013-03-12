@@ -248,4 +248,16 @@ $(document).ready(function () {
     strictEqual(col.hasNext(), false);
   });
 
+  test("0-based firstPage", function () {
+    var col = new (Backbone.PageableCollection.extend({
+      url: "url"
+    }))(null, {
+      state: {
+        firstPage: 0
+      },
+      mode: "infinite"
+    });
+
+    ok(col.links[0] === "url", "link for first page should be setted");
+  });
 });
