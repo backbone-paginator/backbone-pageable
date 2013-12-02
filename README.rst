@@ -100,7 +100,7 @@ Browser
   <script src="backbone-pageable.js"></script>
 
 
-Getting to the Backbone.PageableCollection Class from Node.js and AMD
+Getting to the Backbone PageableCollection Class from Node.js and AMD
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. code-block:: javascript
@@ -108,7 +108,7 @@ Getting to the Backbone.PageableCollection Class from Node.js and AMD
   var PageableCollection = require("backbone-pageable");
 
 
-Getting to the Backbone.PageableCollection Class in the Browser
+Getting to the Backbone PageableCollection Class in the Browser
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. code-block:: javascript
