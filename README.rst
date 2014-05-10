@@ -1,3 +1,8 @@
+DEPRECATED!!!
+
+backbone-pageable and backbone.paginator has merged. Please use <https://github.com/backbone-paginator/backbone.paginator>`_ instead.
+
+
 backbone-pageable
 =================
 
